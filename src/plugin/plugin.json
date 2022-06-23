@@ -1,0 +1,6 @@
+{
+  "pages": {
+    "list": "pages/list/list"
+  },
+    "main": "index.ts"
+  }

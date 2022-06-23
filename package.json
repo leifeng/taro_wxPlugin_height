@@ -1,0 +1,50 @@
+{
+  "name": "pluginTest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "templateInfo": {
+    "name": "wxplugin",
+    "typescript": true,
+    "css": "none"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp --plugin weapp",
+    "dev:weapp": "taro build --type weapp --plugin weapp --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@tarojs/components": "3.4.10",
+    "@tarojs/extend": "3.4.10",
+    "@tarojs/plugin-framework-react": "3.4.10",
+    "@tarojs/react": "3.4.10",
+    "@tarojs/runtime": "3.4.10",
+    "@tarojs/taro": "3.4.10",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@tarojs/mini-runner": "3.4.10",
+    "@tarojs/webpack-runner": "3.4.10",
+    "@types/react": "^17.0.2",
+    "@types/webpack-env": "^1.13.6",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "babel-preset-taro": "3.4.10",
+    "eslint": "^8.12.0",
+    "eslint-config-taro": "3.4.10",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "stylelint": "9.3.0",
+    "typescript": "^4.1.0"
+  }
+}
